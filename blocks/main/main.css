@@ -1,8 +1,8 @@
-.body{
+.main{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 1280px;
+    max-width: 1280px;
     background: #2A2C2F;
     font-family: 'Inter';
     /*outline: solid yellow;*/
@@ -10,21 +10,21 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .body{
-        width: 1024px;
+    .main{
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .body{
-        width: 768px;
+    .main{
+        max-width: 768px;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .body{
-        width: 320px;
+    .main{
+        max-width: 320px;
         margin: 0 auto;
     }
 }

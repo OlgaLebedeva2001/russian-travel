@@ -5,6 +5,15 @@
     line-height: 28px;
     color: white;
     margin-left: 18px;
+    opacity: 1;
+}
+
+.langs__lang:hover{
+  opacity: .8;
+}
+
+.langs__lang:last-child{
+  text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
