@@ -1,0 +1,13 @@
+.place__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /*outline: solid red;*/
+    align-items: end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__header{
+        flex-wrap: wrap;
+    }
+}

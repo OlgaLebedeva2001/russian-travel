@@ -1,0 +1,27 @@
+.place__paragraphs{
+    margin-left: 40px;
+    width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraphs{
+        width: 456px;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraphs{
+        width: 352px;
+        margin-left: 28px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs{
+        width: 288px;
+        margin: 32px 16px 0;
+        /*outline: solid green;*/
+    }
+}

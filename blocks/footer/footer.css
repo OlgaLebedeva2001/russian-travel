@@ -1,0 +1,27 @@
+.footer{
+    width: 1184px;
+    display: flex;
+    margin: 92px auto 24px; 
+    /*outline: solid red;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 720px;
+       margin: 88px auto 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        width: 168px;
+        flex-wrap: wrap;
+       margin: 64px 118px 16px 24px;
+    }
+}

@@ -1,0 +1,24 @@
+.place__source {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__source{
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__source{
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__source{
+        margin-left: 16px;
+    }
+}
