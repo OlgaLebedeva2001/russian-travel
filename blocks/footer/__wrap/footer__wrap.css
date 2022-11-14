@@ -6,7 +6,7 @@
     margin: 0;
     flex-direction: row;
     justify-content: space-between;
-    outline: solid rgb(47, 255, 0);
+    /*outline: solid rgb(47, 255, 0);*/
     padding: 0;
 }
 
