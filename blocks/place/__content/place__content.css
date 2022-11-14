@@ -1,14 +1,14 @@
-.place__content{
-    margin-top: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    /*flex-wrap: wrap;*/
+.place__content {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /*flex-wrap: wrap;*/
 }
 
 @media screen and (max-width: 568px) {
-    .place__content{
-        margin-top: 32px;
-        flex-wrap: wrap;
-    }
+  .place__content {
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
 }

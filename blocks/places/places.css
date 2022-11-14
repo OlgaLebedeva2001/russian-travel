@@ -1,25 +1,25 @@
-.places{
-    max-width: 984px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*outline: solid orange;*/
+.places {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*outline: solid orange;*/
 }
 
 @media screen and (max-width: 1124px) {
-    .places {
-        max-width: 928px;
-    }
+  .places {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 984px) {
-    .places {
-        max-width: 720px;
-    }
+  .places {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 568px) {
-    .places {
-        max-width: 320px;
-    }
+  .places {
+    max-width: 320px;
+  }
 }

@@ -1,14 +1,14 @@
-.place__header{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    /*outline: solid red;*/
-    align-items: end;
-    /*flex-wrap: wrap;*/
+.place__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /*outline: solid red;*/
+  align-items: end;
+  /*flex-wrap: wrap;*/
 }
 
 @media screen and (max-width: 568px) {
-    .place__header{
-        flex-wrap: wrap;
-    }
+  .place__header {
+    flex-wrap: wrap;
+  }
 }
