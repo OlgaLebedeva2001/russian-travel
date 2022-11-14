@@ -4,9 +4,10 @@
     justify-content: start;
     /*outline: solid red;*/
     align-items: end;
+    /*flex-wrap: wrap;*/
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .place__header{
         flex-wrap: wrap;
     }

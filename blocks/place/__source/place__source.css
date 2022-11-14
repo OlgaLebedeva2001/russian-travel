@@ -5,19 +5,19 @@
     margin-left: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
     .place__source{
         margin-left: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
     .place__source{
         margin-left: 28px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .place__source{
         margin-left: 16px;
     }
