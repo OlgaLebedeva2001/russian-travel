@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 722px) {
   .footer__link:last-child {
     margin-bottom: 0;
   }

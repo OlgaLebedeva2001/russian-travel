@@ -12,8 +12,22 @@
   padding: 28px 0 24px;
 }
 
-@media screen and (max-width: 568) {
-  .page {
+@media screen and (max-width: 1124px) {
+  .page__content {
+    max-width: 1124px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .page__content {
+    max-width: 984px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .page__content {
+    max-width: 568px;
     padding: 16px 0 24px;
   }
 }
+

@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 722px) {
   .place__paragraph:last-child {
     margin-bottom: 0px;
     /*outline: solid blue;*/
