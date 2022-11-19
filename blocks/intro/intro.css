@@ -1,29 +1,28 @@
 .intro {
   display: flex;
-  max-width: 984px;
-  min-height: 429px;
+  max-width: 690px;
   flex-direction: column;
-  /*outline: solid green;*/
-  padding: 0;
-  box-sizing: border-box;
+  /*outline: solid red;*/
+  padding: 0 148px;
 }
 
 @media screen and (max-width: 1124px) {
   .intro {
-    max-width: 928px;
+    padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .intro {
     max-width: 720px;
+    padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 722
-px) {
+@media screen and (max-width: 722px) {
   .intro {
     max-width: 288px;
-    min-height: 754px;
+    padding: 0 16px;
+    margin: 0 auto;
   }
 }

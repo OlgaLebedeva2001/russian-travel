@@ -3,12 +3,12 @@
   margin-top: 0;
   margin-bottom: 40px;
   max-width: 690px;
-  min-height: 58px;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   color: white;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1124px) {
@@ -23,8 +23,7 @@
   }
 }
 
-@media screen and (max-width: 722
-px) {
+@media screen and (max-width: 722px) {
   .intro__title {
     max-width: 288px;
     font-size: 32px;

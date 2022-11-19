@@ -1,6 +1,7 @@
 .page__content {
   margin-top: 56px;
   margin-bottom: 92px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1124px) {
@@ -15,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 722px) {
+@media screen and (max-width: 568px) {
   .page__content {
     margin-bottom: 64px;
   }

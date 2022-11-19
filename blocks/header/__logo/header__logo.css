@@ -1,18 +1,15 @@
 .header__logo {
-  background-image: url(../../../sprint-3-images/header-logo.svg);
-  /* padding: 0;*/
-  /*width: 176px;*/
-  min-width: 176px;
+  background-image: url(../../../images/header-logo.svg);
+  max-width: 176px;
   min-height: 52px;
-  object-fit: contain;
+  width: 100%;
+  padding: 0;
 }
 
-@media screen and (max-width: 722
-px) {
+@media screen and (max-width: 568px) {
   .header__logo {
-    /*object-fit: contain;*/
-    min-width: 142px;
+    background-image: url(../../../images/header-logo320.svg);
+    max-width: 142px;
     min-height: 42px;
-    background-image: url(../../../sprint-3-images/header-logo320.svg);
   }
 }

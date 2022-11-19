@@ -1,6 +1,6 @@
 .intro__text {
   max-width: 690px;
-  min-height: 208px;
+  box-sizing: border-box;
   padding: 0;
   margin-bottom: 33px;
   color: white;
