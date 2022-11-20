@@ -6,15 +6,11 @@
   color: white;
   margin-right: 18px;
   opacity: 1;
+  text-decoration: none;
 }
 
 .langs__lang:hover {
   opacity: 0.8;
-}
-
-.langs__lang:last-child {
-  text-decoration: none;
-  margin-right: 0;
 }
 
 @media screen and (max-width: 568px) {
