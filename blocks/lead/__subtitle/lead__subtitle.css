@@ -8,11 +8,7 @@
   color: white;
   margin: 16px 0 64px;
   text-align: center;
-  /*outline: solid pink;*/
   padding: 0 172px;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 1124px) {

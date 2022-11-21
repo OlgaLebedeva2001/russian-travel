@@ -5,7 +5,6 @@
   row-gap: 48px;
   column-gap: 40px;
   box-sizing: border-box;
-  /*outline: solid black;*/
   justify-content: space-between;
   justify-items: start;
 }
@@ -13,7 +12,6 @@
 @media screen and (max-width: 1124px) {
   .place {
     grid-template-columns: 440px 1fr;
-    row-gap: 48px;
     column-gap: 32px;
   }
 }
@@ -21,7 +19,6 @@
 @media screen and (max-width: 984px) {
   .place {
     grid-template-columns: 340px 1fr;
-    row-gap: 48px;
     column-gap: 28px;
   }
 }

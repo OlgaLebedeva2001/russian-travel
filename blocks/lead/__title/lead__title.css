@@ -11,12 +11,8 @@
   color: white;
   margin: 0 0 16px;
   text-align: center;
-  /*outline: solid pink;*/
   padding: 0 132px;
   box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 1124px) {

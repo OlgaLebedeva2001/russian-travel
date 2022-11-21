@@ -4,9 +4,12 @@
   font-size: 24px;
   line-height: 28px;
   color: white;
-  margin-right: 18px;
+  margin-left: 18px;
+  padding-bottom: 0;
+  padding-bottom: 6px;
   opacity: 1;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .langs__lang:hover {
@@ -17,5 +20,6 @@
   .langs__lang {
     font-size: 18px;
     line-height: 20px;
+    padding-bottom: 8px;
   }
 }

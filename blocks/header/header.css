@@ -5,7 +5,6 @@
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
-  /*outline: solid red;*/
   box-sizing: border-box;
   padding: 0 48px;
 }

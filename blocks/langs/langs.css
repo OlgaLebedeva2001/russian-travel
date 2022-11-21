@@ -1,6 +1,6 @@
 .langs {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  /*outline: solid blue;*/
+  align-items: end;
+  justify-content: center;
 }
